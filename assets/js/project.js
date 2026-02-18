@@ -9,8 +9,8 @@ lang:''
 Slide390:{
 lb:'',
 id:390,
-from:1261,
-to:1350,
+from:4231,
+to:4320,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -20303,8 +20303,8 @@ visible:'1'
 si1440:{
 name:'Simulation_10',
 type:1268,
-from:2161,
-to:2250,
+from:2791,
+to:2880,
 rp:0,
 rpa:0,
 mdi:'si1440c',
@@ -20470,8 +20470,8 @@ vb:[-1,-1,1,1]
 si1432:{
 name:'Simulation_non_responsive_10',
 type:1268,
-from:2161,
-to:2250,
+from:2791,
+to:2880,
 rp:0,
 rpa:0,
 mdi:'si1432c',
@@ -20665,8 +20665,8 @@ vb:[-1,-1,1,1]
 si1754:{
 name:'Button_14',
 type:29,
-from:2161,
-to:2250,
+from:2791,
+to:2880,
 rp:0,
 rpa:0,
 mdi:'si1754c',
@@ -20821,8 +20821,8 @@ vb:[-2,-2,-1,-1]
 si1931:{
 name:'Instructions_10',
 type:612,
-from:2161,
-to:2250,
+from:2791,
+to:2880,
 rp:0,
 rpa:0,
 mdi:'si1931c',
@@ -21051,8 +21051,8 @@ vb:[-4,-4,2,2]
 Slide1414:{
 lb:'Simulation slide 10',
 id:1414,
-from:2161,
-to:2250,
+from:2791,
+to:2880,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -23647,10 +23647,10 @@ dn:'Slide2223',
 visible:'1'
 },
 si2718:{
-name:'Block_InputField_1',
+name:'EmailCompletionAddress',
 type:1268,
-from:2341,
-to:2430,
+from:4141,
+to:4230,
 rp:0,
 rpa:0,
 mdi:'si2718c',
@@ -23817,8 +23817,8 @@ vb:[-1,-1,1,1]
 si2726:{
 name:'Block_InputField_Group_1',
 type:1268,
-from:2341,
-to:2430,
+from:4141,
+to:4230,
 rp:0,
 rpa:0,
 mdi:'si2726c',
@@ -23994,8 +23994,8 @@ vb:[-1,-1,1,1]
 si2734:{
 name:'Text_5',
 type:1250,
-from:2341,
-to:2430,
+from:3961,
+to:4050,
 rp:0,
 rpa:0,
 mdi:'si2734c',
@@ -24145,10 +24145,10 @@ vbwr:[-1,-1,2,2],
 vb:[-1,-1,2,2]
 },
 si2742:{
-name:'InputField_2',
+name:'EmailCompletionInput',
 type:2433,
-from:2341,
-to:2430,
+from:3961,
+to:4050,
 rp:0,
 rpa:0,
 mdi:'si2742c',
@@ -24304,8 +24304,8 @@ vb:[-2,-2,-1,-1]
 si2770:{
 name:'Button_28',
 type:29,
-from:2341,
-to:2430,
+from:4141,
+to:4230,
 rp:0,
 rpa:0,
 mdi:'si2770c',
@@ -24333,7 +24333,7 @@ efph:{
 }
 ,
 eflh:[],
-oca:'{"scripts":[{"then":[["cp.exit()"]]}]}',
+oca:'{"scripts":[{"then":[["cp.assignVariable(\\"var3299\\",\\"3\\",\\"2742\\")"],["cp.runJavascript(\\"dmFyIGVtYWlsY29tcGxldGU9d2luZG93LmNwQVBJSW50ZXJmYWNlLmdldFZhcmlhYmxlVmFsdWUoIlVzZXJFbWFpbCIpOwphbGVydChlbWFpbGNvbXBsZXRlKTs=\\",\\"_self\\");"],["cp.exit()"]]}]}',
 iflbx:false,
 ipflbx:true,
 si:[]
@@ -24460,8 +24460,8 @@ vb:[-2,-2,-1,-1]
 Slide2700:{
 lb:'Blank 4',
 id:2700,
-from:2341,
-to:2430,
+from:4141,
+to:4230,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -24513,7 +24513,15 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
-3028:{
+3305:{
+ts:''
+}
+,
+3311:{
+ts:''
+}
+,
+3317:{
 ts:''
 }
 
@@ -24961,6 +24969,13 @@ vv:0,
 vvt:1,
 vt:0
 },
+var3299var3299:{
+vid:3299,
+name:'UserEmail',
+vv:'',
+vvt:2,
+vt:0
+},
 variableIdVsNameMap:{
 var346:'LMS.LearnerID',
 var347:'LMS.LearnerName',
@@ -25006,7 +25021,8 @@ var809:'variableEditBoxNum_1',
 var2325:'variableEditBoxStr_2',
 var2326:'variableEditBoxNum_2',
 var2768:'variableEditBoxStr_3',
-var2769:'variableEditBoxNum_3'
+var2769:'variableEditBoxNum_3',
+var3299:'UserEmail'
 },
 project:{
 fps:30,
@@ -25076,7 +25092,8 @@ preloaderPercentage:100,
 pprtd:false,
 peon:false,
 fadeInAtStart:0,
-fadeOutAtEnd:0
+fadeOutAtEnd:0,
+endAction:'cp.closeProject();'
 },
 borderProperties:{
 hasBorder:false
@@ -25456,11 +25473,12 @@ cp.cv('cpInfoPrevFrame',0,1,15,0);
 cp.cv('LMS.CourseName','',0,15,0);
 cp.cv('LMS.LearnerID','',0,15,0);
 cp.cv('LMS.LearnerName','',0,15,0);
+cp.cv('UserEmail','',0,15,0);
 cp.cv('variableEditBoxNum_1','',0,15,0);
 cp.cv('variableEditBoxNum_2','',0,15,0);
 cp.cv('variableEditBoxNum_3','',0,15,0);
 cp.cv('variableEditBoxStr_1','',0,15,0);
 cp.cv('variableEditBoxStr_2','',0,15,0);
 cp.cv('variableEditBoxStr_3','',0,15,0);
-};cp.ReportingVariables="LMS.CourseName,LMS.LearnerID,LMS.LearnerName,variableEditBoxNum_1,variableEditBoxNum_2,variableEditBoxNum_3,variableEditBoxStr_1,variableEditBoxStr_2,variableEditBoxStr_3,";
+};cp.ReportingVariables="LMS.CourseName,LMS.LearnerID,LMS.LearnerName,UserEmail,variableEditBoxNum_1,variableEditBoxNum_2,variableEditBoxNum_3,variableEditBoxStr_1,variableEditBoxStr_2,variableEditBoxStr_3,";
 };cp.sbw=0;cp.useg=0;cp.geo=0;cp.pg=0;cp.win8=0;cp.autoGrow=1;cp.fluidFont=1;
