@@ -11106,7 +11106,7 @@ isOverridden:false
 }
 ]
 ,
-widgetProps:'{"sizeNPos":{"top":312,"left":750,"width":300,"height":"auto"}}',
+widgetProps:'{"sizeNPos":{"top":312,"left":650,"width":300,"height":"auto"}}',
 parentGroup:'si763',
 retainState:false,
 immo:false,
@@ -11173,7 +11173,7 @@ text:''
 }
 ,
 subType:'',
-text:'{"blocks":[{"key":"ah2dc","text":"Enter type 2 diabetes in the search box above","type":"unstyled","depth":0,"inlineStyleRanges":[{"offset":0,"length":57,"style":"overridden:false"},{"offset":0,"length":57,"style":"opacity:1"},{"offset":0,"length":57,"style":"backgroundColor:unset"},{"offset":0,"length":57,"style":"defaultBackgroundColor:#5EFF67"},{"offset":0,"length":57,"style":"desktop-fontSize:14"},{"offset":0,"length":52,"style":"fontFamily:Georgia"},{"offset":0,"length":57,"style":"fontStyle:italic"},{"offset":0,"length":57,"style":"textHighlightEnable:false"},{"offset":0,"length":57,"style":"textOutlineEnable:false"},{"offset":0,"length":57,"style":"textShadowEnable:false"}],"entityRanges":[],"data":{"presetId":"text-caption_incorrect","listDepth":"0","listType":"S_Bullets08","listIndent":"100%","listSize":"100%","listColor":"#666666","overridden":"false"}}],"entityMap":{}}',
+text:'{"blocks":[{"key":"ah2dc","text":"Enter type 2 diabetes in the search box above","type":"unstyled","depth":0,"inlineStyleRanges":[{"offset":0,"length":57,"style":"overridden:false"},{"offset":0,"length":57,"style":"opacity:1"},{"offset":0,"length":57,"style":"backgroundColor:unset"},{"offset":0,"length":57,"style":"defaultBackgroundColor:#5EFF67"},{"offset":0,"length":57,"style":"fontSize:14"},{"offset":0,"length":52,"style":"fontFamily:Georgia"},{"offset":0,"length":57,"style":"fontStyle:italic"},{"offset":0,"length":57,"style":"textHighlightEnable:false"},{"offset":0,"length":57,"style":"textOutlineEnable:false"},{"offset":0,"length":57,"style":"textShadowEnable:false"}],"entityRanges":[],"data":{"presetId":"text-caption_incorrect","listDepth":"0","listType":"S_Bullets08","listIndent":"100%","listSize":"100%","listColor":"#666666","overridden":"false"}}],"entityMap":{}}',
 isc:1,
 trin:0,
 trout:0,
