@@ -11332,7 +11332,7 @@ isOverridden:false
 }
 ]
 ,
-widgetProps:'{"sizeNPos":{"top":312,"left":114,"width":300,"height":"auto"}}',
+widgetProps:'{"isHighlightBox":true,"isSizePosOverriden":"false","isCaption":"true","currentState":"normal","normal":{"opacity":100,"shapePresetData":{"presetId":"cp_clickbox_shape_solid_style","fillEnable":true,"fillType":1,"strokeEnable":true,"shadowEnable":false}},"shapeData":{"type":"rect","attributes":{"rx":"0"}},"sizeNPos":{"top":59,"left":14,"width":300,"height":"auto"}}',
 parentGroup:'si763',
 retainState:false,
 immo:false,
