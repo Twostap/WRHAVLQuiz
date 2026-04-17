@@ -19088,7 +19088,7 @@ isOverridden:false
 }
 ]
 ,
-widgetProps:'{"sizeNPos":{"top":247.6989247311828,"left":492.6236559139785,"width":395.6906554519489,"height":"auto"},"isSizePosOverriden":true}',
+widgetProps:'{"sizeNPos":{"top":400.6989247311828,"left":200.6236559139785,"width":395.6906554519489,"height":"auto"},"isSizePosOverriden":true}',
 parentGroup:'si1206',
 retainState:false,
 immo:false,
